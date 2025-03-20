@@ -1,28 +1,27 @@
 "use client"
 
-import * as React from "react"
+import type * as React from "react"
 import {
-  IconCamera,
-  IconChartBar,
-  IconDashboard,
-  IconDatabase,
-  IconFileAi,
-  IconFileDescription,
-  IconFileWord,
-  IconFolder,
-  IconHelp,
-  IconInnerShadowTop,
-  IconListDetails,
-  IconReport,
-  IconSearch,
-  IconSettings,
-  IconUsers,
-} from "@tabler/icons-react"
+  AlertCircleIcon,
+  ArchiveIcon,
+  BookmarkIcon,
+  CameraIcon,
+  CogIcon,
+  HardDriveIcon,
+  HelpCircleIcon,
+  LayoutDashboardIcon,
+  ListIcon,
+  MapPinIcon,
+  SearchIcon,
+  ShieldAlertIcon,
+  UsersIcon,
+  VideoIcon,
+} from "lucide-react"
 
-import { NavDocuments } from "@/components/nav-documents"
-import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
-import { NavUser } from "@/components/nav-user"
+import { NavDocuments } from "./nav-documents"
+import { NavMain } from "./nav-main"
+import { NavSecondary } from "./nav-secondary"
+import { NavUser } from "./nav-user"
 import {
   Sidebar,
   SidebarContent,
@@ -35,80 +34,80 @@ import {
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "admin",
+    email: "admin@securitysys.com",
     avatar: "/avatars/shadcn.jpg",
   },
   navMain: [
     {
       title: "Dashboard",
       url: "#",
-      icon: IconDashboard,
+      icon: LayoutDashboardIcon,
     },
     {
-      title: "Lifecycle",
+      title: "Live View",
       url: "#",
-      icon: IconListDetails,
+      icon: VideoIcon,
+    },
+    {
+      title: "Recordings",
+      url: "#",
+      icon: ArchiveIcon,
+    },
+    {
+      title: "Alerts",
+      url: "#",
+      icon: AlertCircleIcon,
     },
     {
       title: "Analytics",
       url: "#",
-      icon: IconChartBar,
-    },
-    {
-      title: "Projects",
-      url: "#",
-      icon: IconFolder,
-    },
-    {
-      title: "Team",
-      url: "#",
-      icon: IconUsers,
+      icon: ListIcon,
     },
   ],
   navClouds: [
     {
-      title: "Capture",
-      icon: IconCamera,
+      title: "Cameras",
+      icon: CameraIcon,
       isActive: true,
       url: "#",
       items: [
         {
-          title: "Active Proposals",
+          title: "Indoor Cameras",
           url: "#",
         },
         {
-          title: "Archived",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Proposal",
-      icon: IconFileDescription,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
+          title: "Outdoor Cameras",
           url: "#",
         },
       ],
     },
     {
-      title: "Prompts",
-      icon: IconFileAi,
+      title: "Locations",
+      icon: MapPinIcon,
       url: "#",
       items: [
         {
-          title: "Active Proposals",
+          title: "Main Building",
           url: "#",
         },
         {
-          title: "Archived",
+          title: "Exterior",
+          url: "#",
+        },
+      ],
+    },
+    {
+      title: "Users",
+      icon: UsersIcon,
+      url: "#",
+      items: [
+        {
+          title: "Manage Access",
+          url: "#",
+        },
+        {
+          title: "Permissions",
           url: "#",
         },
       ],
@@ -118,34 +117,34 @@ const data = {
     {
       title: "Settings",
       url: "#",
-      icon: IconSettings,
+      icon: CogIcon,
     },
     {
       title: "Get Help",
       url: "#",
-      icon: IconHelp,
+      icon: HelpCircleIcon,
     },
     {
       title: "Search",
       url: "#",
-      icon: IconSearch,
+      icon: SearchIcon,
     },
   ],
   documents: [
     {
-      name: "Data Library",
+      name: "Saved Clips",
       url: "#",
-      icon: IconDatabase,
+      icon: BookmarkIcon,
     },
     {
-      name: "Reports",
+      name: "Storage",
       url: "#",
-      icon: IconReport,
+      icon: HardDriveIcon,
     },
     {
-      name: "Word Assistant",
+      name: "Security Rules",
       url: "#",
-      icon: IconFileWord,
+      icon: ShieldAlertIcon,
     },
   ],
 }
@@ -156,13 +155,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              className="data-[slot=sidebar-menu-button]:!p-1.5"
-            >
+            <SidebarMenuButton asChild className="data-[slot=sidebar-menu-button]:!p-1.5">
               <a href="#">
-                <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <CameraIcon className="h-5 w-5" />
+                <span className="text-base font-semibold">SecurView CCTV</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -179,3 +175,4 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     </Sidebar>
   )
 }
+

@@ -1,20 +1,8 @@
 "use client"
 
-import {
-  IconDots,
-  IconFolder,
-  IconShare3,
-  IconTrash,
-  type Icon,
-} from "@tabler/icons-react"
+import { FolderIcon, MoreHorizontalIcon, ShareIcon, type LucideIcon } from "lucide-react"
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -31,7 +19,7 @@ export function NavDocuments({
   items: {
     name: string
     url: string
-    icon: Icon
+    icon: LucideIcon
   }[]
 }) {
   const { isMobile } = useSidebar()
@@ -50,11 +38,8 @@ export function NavDocuments({
             </SidebarMenuButton>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <SidebarMenuAction
-                  showOnHover
-                  className="data-[state=open]:bg-accent rounded-sm"
-                >
-                  <IconDots />
+                <SidebarMenuAction showOnHover className="rounded-sm data-[state=open]:bg-accent">
+                  <MoreHorizontalIcon />
                   <span className="sr-only">More</span>
                 </SidebarMenuAction>
               </DropdownMenuTrigger>
@@ -64,17 +49,12 @@ export function NavDocuments({
                 align={isMobile ? "end" : "start"}
               >
                 <DropdownMenuItem>
-                  <IconFolder />
+                  <FolderIcon />
                   <span>Open</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <IconShare3 />
+                  <ShareIcon />
                   <span>Share</span>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem variant="destructive">
-                  <IconTrash />
-                  <span>Delete</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -82,7 +62,7 @@ export function NavDocuments({
         ))}
         <SidebarMenuItem>
           <SidebarMenuButton className="text-sidebar-foreground/70">
-            <IconDots className="text-sidebar-foreground/70" />
+            <MoreHorizontalIcon className="text-sidebar-foreground/70" />
             <span>More</span>
           </SidebarMenuButton>
         </SidebarMenuItem>
@@ -90,3 +70,4 @@ export function NavDocuments({
     </SidebarGroup>
   )
 }
+

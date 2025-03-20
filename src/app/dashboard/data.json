@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "camera": "Front Entrance",
+    "location": "Main Building",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-21T08:45:23",
+    "duration": "00:02:15",
+    "size": "45.2",
+    "status": "Archived"
+  },
+  {
+    "id": 2,
+    "camera": "Parking Lot A",
+    "location": "Exterior",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-21T07:32:18",
+    "duration": "00:01:42",
+    "size": "32.8",
+    "status": "Archived"
+  },
+  {
+    "id": 3,
+    "camera": "Server Room",
+    "location": "IT Department",
+    "event": "Person Detected",
+    "timestamp": "2024-03-21T06:15:09",
+    "duration": "00:05:33",
+    "size": "98.6",
+    "status": "Flagged"
+  },
+  {
+    "id": 4,
+    "camera": "Warehouse",
+    "location": "Storage Area",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-21T05:47:52",
+    "duration": "00:00:58",
+    "size": "18.4",
+    "status": "Archived"
+  },
+  {
+    "id": 5,
+    "camera": "Reception",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-21T04:23:11",
+    "duration": "00:03:27",
+    "size": "67.9",
+    "status": "Archived"
+  },
+  {
+    "id": 6,
+    "camera": "Back Entrance",
+    "location": "Main Building",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-21T03:12:45",
+    "duration": "00:01:12",
+    "size": "24.5",
+    "status": "Archived"
+  },
+  {
+    "id": 7,
+    "camera": "Hallway 1F",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-21T02:56:33",
+    "duration": "00:02:48",
+    "size": "54.2",
+    "status": "Archived"
+  },
+  {
+    "id": 8,
+    "camera": "Parking Lot B",
+    "location": "Exterior",
+    "event": "Vehicle Detected",
+    "timestamp": "2024-03-21T01:34:19",
+    "duration": "00:04:15",
+    "size": "82.7",
+    "status": "Flagged"
+  },
+  {
+    "id": 9,
+    "camera": "Loading Dock",
+    "location": "Warehouse",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-21T00:23:07",
+    "duration": "00:01:53",
+    "size": "36.8",
+    "status": "Archived"
+  },
+  {
+    "id": 10,
+    "camera": "Executive Office",
+    "location": "Management Floor",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T23:45:12",
+    "duration": "00:02:37",
+    "size": "51.4",
+    "status": "Archived"
+  },
+  {
+    "id": 11,
+    "camera": "Server Room",
+    "location": "IT Department",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T22:18:56",
+    "duration": "00:00:42",
+    "size": "14.2",
+    "status": "Archived"
+  },
+  {
+    "id": 12,
+    "camera": "Front Gate",
+    "location": "Exterior",
+    "event": "Vehicle Detected",
+    "timestamp": "2024-03-20T21:37:28",
+    "duration": "00:03:15",
+    "size": "63.9",
+    "status": "Flagged"
+  },
+  {
+    "id": 13,
+    "camera": "Cafeteria",
+    "location": "Main Building",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T20:12:45",
+    "duration": "00:01:28",
+    "size": "28.7",
+    "status": "Archived"
+  },
+  {
+    "id": 14,
+    "camera": "Hallway 2F",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T19:45:33",
+    "duration": "00:02:19",
+    "size": "45.6",
+    "status": "Archived"
+  },
+  {
+    "id": 15,
+    "camera": "R&D Lab",
+    "location": "Research Wing",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T18:23:11",
+    "duration": "00:01:05",
+    "size": "21.3",
+    "status": "Archived"
+  },
+  {
+    "id": 16,
+    "camera": "Parking Lot A",
+    "location": "Exterior",
+    "event": "Vehicle Detected",
+    "timestamp": "2024-03-20T17:56:42",
+    "duration": "00:03:48",
+    "size": "74.2",
+    "status": "Archived"
+  },
+  {
+    "id": 17,
+    "camera": "Reception",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T16:34:19",
+    "duration": "00:02:27",
+    "size": "47.8",
+    "status": "Archived"
+  },
+  {
+    "id": 18,
+    "camera": "Server Room",
+    "location": "IT Department",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T15:12:07",
+    "duration": "00:04:53",
+    "size": "94.6",
+    "status": "Flagged"
+  },
+  {
+    "id": 19,
+    "camera": "Back Entrance",
+    "location": "Main Building",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T14:45:33",
+    "duration": "00:01:18",
+    "size": "25.7",
+    "status": "Archived"
+  },
+  {
+    "id": 20,
+    "camera": "Warehouse",
+    "location": "Storage Area",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T13:23:56",
+    "duration": "00:02:42",
+    "size": "52.9",
+    "status": "Archived"
+  },
+  {
+    "id": 21,
+    "camera": "Front Entrance",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T12:56:19",
+    "duration": "00:03:15",
+    "size": "63.4",
+    "status": "Archived"
+  },
+  {
+    "id": 22,
+    "camera": "Hallway 1F",
+    "location": "Main Building",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T11:34:07",
+    "duration": "00:01:23",
+    "size": "27.1",
+    "status": "Archived"
+  },
+  {
+    "id": 23,
+    "camera": "Parking Lot B",
+    "location": "Exterior",
+    "event": "Vehicle Detected",
+    "timestamp": "2024-03-20T10:12:45",
+    "duration": "00:02:56",
+    "size": "57.8",
+    "status": "Archived"
+  },
+  {
+    "id": 24,
+    "camera": "Executive Office",
+    "location": "Management Floor",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T09:45:33",
+    "duration": "00:01:08",
+    "size": "22.4",
+    "status": "Archived"
+  },
+  {
+    "id": 25,
+    "camera": "Loading Dock",
+    "location": "Warehouse",
+    "event": "Vehicle Detected",
+    "timestamp": "2024-03-20T08:23:19",
+    "duration": "00:05:27",
+    "size": "106.2",
+    "status": "Flagged"
+  },
+  {
+    "id": 26,
+    "camera": "Cafeteria",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T07:56:42",
+    "duration": "00:03:12",
+    "size": "62.5",
+    "status": "Archived"
+  },
+  {
+    "id": 27,
+    "camera": "R&D Lab",
+    "location": "Research Wing",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T06:34:11",
+    "duration": "00:01:45",
+    "size": "34.2",
+    "status": "Archived"
+  },
+  {
+    "id": 28,
+    "camera": "Server Room",
+    "location": "IT Department",
+    "event": "Motion Detected",
+    "timestamp": "2024-03-20T05:12:56",
+    "duration": "00:00:52",
+    "size": "17.3",
+    "status": "Archived"
+  },
+  {
+    "id": 29,
+    "camera": "Front Gate",
+    "location": "Exterior",
+    "event": "Vehicle Detected",
+    "timestamp": "2024-03-20T04:45:28",
+    "duration": "00:02:38",
+    "size": "51.7",
+    "status": "Archived"
+  },
+  {
+    "id": 30,
+    "camera": "Reception",
+    "location": "Main Building",
+    "event": "Person Detected",
+    "timestamp": "2024-03-20T03:23:07",
+    "duration": "00:01:56",
+    "size": "38.2",
+    "status": "Archived"
+  }
+]
